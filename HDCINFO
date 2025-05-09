@@ -1,0 +1,8 @@
+// Wild Altis O/U Spawn Table
+addSpawnTableNestedEntry => { "tableName": "HDCore.SuperShotgunReplaces", "name": "HDAltis.WildAltis", "weight": "#ous_weapon_spawn_bias", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "HDAltis.WildAltis", "name": "WildAltisSlugs", "weight": "#ous_slug_chance_bias", "persists": "true" }
+addSpawnTableSingleEntry => { "tableName": "HDAltis.WildAltis", "name": "WildAltisShells", "weight": "1", "persists": "true" }
+
+// Altis O/U Ammo Usage
+addAmmoUser => { "ammoName": "HDShellAmmo", "name": "HDAltis" }
+addAmmoUser => { "ammoName": "HDSlugAmmo", "name": "HDAltis" }
