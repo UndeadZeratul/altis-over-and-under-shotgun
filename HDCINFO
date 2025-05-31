@@ -1,3 +1,6 @@
+// Backpack Spawn Pool Filtering
+addBPSpawnPoolFilter => { "name": "HDAltis", "allowed": "#ous_allowBackpacks" }
+
 // Wild Altis O/U Spawn Table
 addSpawnTableNestedEntry => { "tableName": "SuperShotgunReplaces", "name": "WildAltis", "weight": "#ous_weapon_spawn_bias", "persists": "true" }
 addSpawnTableSingleEntry => { "tableName": "WildAltis", "name": "WildAltisSlugs", "weight": "#ous_slug_chance_bias", "persists": "true" }
@@ -6,3 +9,6 @@ addSpawnTableSingleEntry => { "tableName": "WildAltis", "name": "WildAltisShells
 // Altis O/U Ammo Usage
 addAmmoUser => { "ammoName": "HDShellAmmo", "name": "HDAltis" }
 addAmmoUser => { "ammoName": "HDSlugAmmo", "name": "HDAltis" }
+
+// AceCorp Weapon Crate Spawn Pool Filtering
+addWeaponCrateFilter => { "name": "HDAltis", "allowed": "#ous_allowBackpacks" }
