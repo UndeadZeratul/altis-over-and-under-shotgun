@@ -4,3 +4,6 @@ server float ous_weapon_spawn_bias = 0.2;
 server float ous_slug_chance_bias  = 0.2;
 user bool    ous_unique_slug_noise = false;
 user bool    ous_slayer_hud        = false;
+
+// Merchant Store Filters
+server bool  hdm_enable_altis      = true;

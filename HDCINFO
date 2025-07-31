@@ -12,3 +12,6 @@ addAmmoUser => { "ammoName": "HDSlugAmmo", "name": "HDAltis" }
 
 // AceCorp Weapon Crate Spawn Pool Filtering
 addWeaponCrateFilter => { "name": "HDAltis", "allowed": "#ous_allowBackpacks" }
+
+// Merchant Store Entries
+newMerchantStoreItem => { "enabled": "#hdm_enable_altis", "type": "weapon", "category": "$MERCH_CAT_ALTIS", "item": "HDAltis", "icon": "GOLLN0", "displayName": "$MERCH_TAG_ALTIS", "basePrice": "150", "flavorText": "$MERCH_FLAVOR_ALTIS" }
