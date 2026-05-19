@@ -1,5 +1,5 @@
 // Backpack Spawn Pool Filtering
-addBPSpawnPoolFilter => { "name": "HDAltis", "allowed": "#ous_allowBackpacks" }
+addStorageItemListFilter => { "name": "HDAltis", "allowed": "#ous_allowBackpacks" }
 
 // Wild Altis O/U Spawn Table
 addSpawnTableNestedEntry => { "tableName": "SuperShotgunReplaces", "name": "WildAltis", "weight": "#ous_weapon_spawn_bias", "persists": "true" }
